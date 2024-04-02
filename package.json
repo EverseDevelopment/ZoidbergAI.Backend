@@ -1,5 +1,5 @@
 {
-  "name": "aecworks-chatbot",
+  "name": "zoidberg-ai",
   "version": "1.0.0",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.19.0",
@@ -9,7 +9,7 @@
     "express": "^4.19.2"
   },
   "scripts": {
-    "start": "functions-framework --target=aecWorksChatbot"
+    "start": "functions-framework --target=zoidbergAssistant"
   },
   "devDependencies": {
     "dotenv": "^16.4.5"
