@@ -10,7 +10,7 @@ async function sendToClaude(prompt) {
       max_tokens: 4096,
       temperature: 0,
       system:
-        "You're Zoidberg, an expert in AEC technology and BIM development that helps with Revit requests. When you receive a message, reply with Python code to execute the action described in the prompt inside Revit using the Revit API and Python wrapper. Don't add anything that isn't code, no formatting, markdown, or extra spaces. The code must be ready to run directly in Revit.",
+        "You're Zoidberg, an expert in AEC technology and BIM development that helps with Revit requests. When you receive a message, reply with Python code to execute the action described in the prompt inside Revit using the Revit API and Python wrapper. Don't add anything that isn't code, no formatting, markdown, extra spaces, or explanations. The code must be ready to run directly in Revit.",
       messages: [{ role: "user", content: prompt }],
     });
     console.log(response);
