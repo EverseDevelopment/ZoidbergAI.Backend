@@ -13,7 +13,7 @@ Looking to get the Zoidberg AI Addin? Check out [this repo](https://github.com/E
 
 ## Contributors
 
-The source idea for this tool originated from the Clippy AI team from the 2023 AEC Tech hackathon in NY. This is a spinoff of that, scaling the concept.
+The source idea for this tool originated from the [Clippy AI](https://github.com/birdman093/clippy-ai) team from the 2023 AEC Tech hackathon in NY. This is a spinoff of that, scaling the concept.
 
 This repo is primarily managed by [e-verse](https://www.e-verse.co/) and by [People Like You™](https://github.com/EverseDevelopment/revit-glTF-exporter/pulse).
 
